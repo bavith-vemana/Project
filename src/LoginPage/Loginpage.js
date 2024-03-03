@@ -19,7 +19,7 @@ export default function Loginpage() {
     const sub = (e) => {
       e.preventDefault();
       console.log(Values);
-      if(Mail == "bavith@gmail.com" && Password=="123")
+      if(Mail == "xxx@gmail.com" && Password=="123")
       {
         navigate('/List')
       }
@@ -37,7 +37,7 @@ export default function Loginpage() {
         <input type="password" className="pass" placeholder="Password" name="Password" value={Password} onChange={onchange}/>
         <button type="submit" className='Login' >login</button>
       </form>
-      <p className="forget" onClick={()=>{alert("Credentials: \n        Username : bavith@gmail.com  \n        password : 123")}}>Forgot Password?</p>
+      <p className="forget" onClick={()=>{alert("Credentials: \n        Username : xxx@gmail.com  \n        password : 123")}}>Forgot Password?</p>
     </div>
   );
 }
