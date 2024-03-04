@@ -3,5 +3,5 @@
 # npm run
 
 ## credentials
-# Mail : 123@gmail.com
+# Mail : electric@gmail.com
 # pass : 123
